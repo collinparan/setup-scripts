@@ -9,21 +9,21 @@ First, download the specific script to your Linux system.
 For example:
 
 ```
-wget https://raw.githubusercontent.com/statsRcool/setup-scripts/main/ubuntu18_04_setup.sh
+curl https://raw.githubusercontent.com/statsRcool/setup-scripts/main/ubuntu18_04_setup.sh
 ```
 
 Make setup script executable.
 
 For example:
 ```
-chmod u+x dev_setup.sh
+chmod u+x ubuntu18_04_setup.sh
 ```
 
 Then run the script.
 
 For exmample:
 ```
-./dev_setup.sh
+./ubuntu18_04_setup.sh
 ```
 
 Follow the prompts and re-run the setup script by running again.
