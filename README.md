@@ -9,7 +9,7 @@ First, download the specific script to your Linux system.
 For example:
 
 ```
-wget 
+wget https://raw.githubusercontent.com/statsRcool/setup-scripts/main/ubuntu18_04_setup.sh
 ```
 
 Make setup script executable.
