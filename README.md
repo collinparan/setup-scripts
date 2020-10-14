@@ -11,7 +11,7 @@ Ensure you are logged in as a root user or super user in your Linux machine.
 For example:
 
 ```
-curl https://raw.githubusercontent.com/statsRcool/setup-scripts/main/ubuntu18_04_setup.sh
+wget https://raw.githubusercontent.com/statsRcool/setup-scripts/main/ubuntu18_04_setup.sh
 ```
 
 2. Make setup script executable.
