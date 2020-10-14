@@ -10,11 +10,11 @@ function step1(){
     echo "Installing updates & setup for python apt..."; 
     (sudo apt -y install software-properties-common && sudo add-apt-repository -y ppa:deadsnakes/ppa);
     echo "Installing Python 3.7..."; 
-    (sudo apt -y install python3.9);
+    (sudo apt -y install python3.7);
     echo "Removing other python links....";
     (sudo rm /usr/bin/python);
     echo "Adding symlink to python..."; 
-    (sudo ln -s /usr/bin/python3.9 /usr/bin/python);
+    (sudo ln -s /usr/bin/python3.7 /usr/bin/python);
     echo "Installing pip..."; 
     (sudo apt -y install python3-pip);
     echo "Adding symlink to pip..."; 
