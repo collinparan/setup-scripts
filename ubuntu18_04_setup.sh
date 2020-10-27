@@ -4,7 +4,7 @@ clear
 
 function step1(){
     echo "Installing updates & code-server..."; 
-    (sudo apt-get update && sudo apt-get upgrade && sudo apt -y install git nodejs npm yarn wget wput unzip);
+    (sudo apt-get update && sudo apt-get upgrade && sudo apt -y install git nodejs npm yarn wget wput unzip && sudo apt install xclip xsel);
 
     #Installs and sets up Python 3
     echo "Installing updates & setup for python apt..."; 
